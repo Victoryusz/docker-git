@@ -1,0 +1,32 @@
+# Ignorar arquivos de dependências
+/node_modules
+/backend/__pycache__
+/frontend/node_modules
+
+# Ignorar arquivos temporários e de log
+*.log
+*.env
+*.DS_Store
+
+# Ignorar arquivos de configuração do Docker
+docker-compose.override.yml
+Dockerfile*
+
+# Ignorar ambientes virtuais e pacotes temporários
+venv/
+.env/
+
+# Ignorar arquivos específicos de IDEs e editores de texto
+.idea/
+.vscode/
+*.iml
+*.sublime-workspace
+
+# Ignorar arquivos de build da aplicação React
+/frontend/build
+
+# Ignorar arquivos de compilação Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
