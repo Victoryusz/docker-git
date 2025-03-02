@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 # Criando a aplicação Flask
 app = Flask(__name__)
@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Definindo uma rota para a página inicial
 @app.route('/')
 def hello_world():
-    return 'Hello from Dockerized Python Flask!'
+    return render_template('index.html')
 
 # Iniciando o servidor na porta 5000
 if __name__ == '__main__':
