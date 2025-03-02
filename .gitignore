@@ -1,4 +1,4 @@
-# Ignorar arquivos de dependências
+# Ignorar arquivos de dependência
 /node_modules
 /backend/__pycache__
 /frontend/node_modules
